@@ -22,5 +22,32 @@ function BookingForm(props)
 
     const handleBookingSubmit = (e) => {
         e.preventDefault();
+
+        const isValid = validateInputs();
+
+        if (isValid) 
+        {
+            setBookingConfirmed(true);
+        } 
+        else 
+        {
+            console.error('Validation error:', validationError);
+        }
+    };
+
+    const validateInputs = () => {
+        setValidationError('');
+
+        if (!date)
+        {
+            setValidationError('Please chooses a date.');
+            return false;
+        }
+
+        if (!time)
+        {
+            setValidationError('Please choose a time.');
+            return false;
+        }
     }
 }
