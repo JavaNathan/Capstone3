@@ -9,4 +9,18 @@ function BookingForm(props)
     const [guests, setGuests] = useState(1);
     const [validationError, setValidationError] = useState('');
     const [bookingConfirmed, setBookingConfirmed] = useState(false);
+
+    useEffect(() => {
+        props.updateTimes(date);
+    }, [date, props]);
+
+    const handleDateChange = (e) => {
+        const selectedDate = e.target.value;
+        setDate(selectedDate);
+        props.updateTimes(selectedDate);
+    };
+
+    const handleBookingSubmit = (e) => {
+        e.preventDefault();
+    }
 }
