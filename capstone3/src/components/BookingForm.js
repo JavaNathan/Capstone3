@@ -62,5 +62,21 @@ function BookingForm(props)
             return false;
         }
         return true;
+    };
+
+    if (bookingConfirmed)
+    {
+        const formData = { date, time, guests, occasion };
+        return <ConfirmedBooking formData={formData}/>;
     }
+
+    return (
+        <>
+            <div style={{ justifyContent: 'center ', display: 'flex', flexDirection: 'column',
+                alignItems: 'center', height: '90vh',
+            }}>
+                <h1>Book a Table</h1>
+            </div>
+        </>
+    )
 }
