@@ -38,16 +38,29 @@ function BookingForm(props)
     const validateInputs = () => {
         setValidationError('');
 
+        if (!time)
+        {
+            setValidationError('Please choose a time.');
+            return false;
+        }
+
         if (!date)
         {
             setValidationError('Please chooses a date.');
             return false;
         }
 
-        if (!time)
+        if (!guests || isNaN(guests) || guests < 1 || guests > 10)
         {
-            setValidationError('Please choose a time.');
+            setValidationError('Please enter a valid number of guests (1-10).');
             return false;
         }
+        
+        if (!occasion)
+        {
+            setValidationError('Please choose an occasion.');
+            return false;
+        }
+        return true;
     }
 }
