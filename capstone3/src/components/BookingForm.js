@@ -138,8 +138,33 @@ function BookingForm(props)
                 }}>
                     Occasion
                 </label>
+                <select
+                    id="occasion"
+                    style={{
+                        padding: '10px',
+                        borderRadius: '5px',
+                        border: '1px solid #ccc',
+                    }}
+                    value={occasion}
+                    onChange={(e) => setOccasion(e.target.value)}
+                >
+                    <option>Birthday</option>
+                    <option>Anniversary</option>
+                </select>
+                <input type="submit" value="Make Your reservation" style={{
+                    padding: '10px',
+                    borderRadius: '5px',
+                    border: '1px solid #ccc',
+                    backgroundColor: '#f4ce14',
+                    color: 'black',
+                    fontWeight: 'bold',
+                    cursor: 'pointer',
+                }} 
+                />
                 </form>
             </div>
         </>
-    )
+    );
 }
+
+export default BookingForm;
