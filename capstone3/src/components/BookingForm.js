@@ -76,6 +76,69 @@ function BookingForm(props)
                 alignItems: 'center', height: '90vh',
             }}>
                 <h1>Book a Table</h1>
+                <form style={{
+                    display: 'grid',
+                    maxWidth: '200px',
+                    gap: '20px',
+                }}
+                onSubmit={handleBookingSubmit}
+                >
+                <label for="res-date" style={{
+                marginBottom: '-15px',
+                }}>Choose date</label>
+                <input type="date" id="res-date" style={{
+                    padding: '10px',
+                    borderRadius: '5px',
+                    border: '1px solid #ccc',
+                }}
+                value={date}
+                onChange={handleDateChange} />
+                <label for="res-time" style={{
+                    marginBottom: '-15px',
+                }}>
+                    Choose time
+                </label>
+                <select
+                    id="res-time"
+                    style={{
+                        padding: '10px',
+                        borderRadius: '5px',
+                        border: '1px solid #ccc',
+                    }}
+                    value={time}
+                    onChange={(e) => setTime(e.target.value)}>
+                    {props.availableTimes.map(t => (
+                    <option key={t}>
+                        {t}
+                    </option>
+                    )
+                    )}
+                </select>
+                <label for="guests" style={{
+                    marginBottom: '-15px'
+                }}>
+                    Number of guests
+                </label>
+                <input
+                    type="number"
+                    placeholder="1"
+                    min="1"
+                    max="10"
+                    id="guests"
+                    style={{
+                        padding: '10px',
+                        borderRadius: '5px',
+                        border: '1px solid #ccc',
+                    }}
+                    value={guests}
+                    onChange={(e) => setGuests(e.target.value)}
+                />
+                <label for="occasion" style={{
+                    marginBottom: '-15px'
+                }}>
+                    Occasion
+                </label>
+                </form>
             </div>
         </>
     )
