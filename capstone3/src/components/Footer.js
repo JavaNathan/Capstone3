@@ -20,6 +20,36 @@ function Footer() {
                 objectFit: 'cover',
                 gridColumn: '3 / span 1',
             }}
+              onClick={() => {
+                window.location.href = '/';
+              }}
+            />
+            <div style={{
+                display: 'flex',
+                gridColumn: '4 / span 8',
+                padding: '10px',
+            }}>
+                <u1 id="doormat-nav" style={{
+                    flex: '1',
+                    padding: '0',
+                    listStyle: 'none',
+                    margin: '0',
+                    textAlign: 'left',
+                }}>
+                    <li className="title" style={{
+                        fontWeight: 'bold',
+                        fontSize: '1.2em',
+                    }}>
+                        Doormat Navigation
+                    </li>
+                    <li>
+                        <a style={{color: 'white', textDecoration: 'none'}} href="/">Home</a>
+                    </li>
+                    <li>
+                        <a style={{color: 'white', textDecoration: 'none'}} href="#about">About</a>
+                    </li>
+                </u1>
+            </div>
         </div>
     );
 }
