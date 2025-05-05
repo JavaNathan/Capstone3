@@ -95,8 +95,42 @@ function Testimonials(){
                                 alignItems: 'center',
                                 padding: '0 10px',
                             }}>
-                                
+                                <div style={{
+                                    margin: '0 15px 0 0',
+                                }}>
+                                    {stars}
+                                </div>
+                                <p>4.8</p>
                             </div>
+                            <div style={{
+                                display: 'flex',
+                                flexDirection: 'row',
+                                alignItems: 'center',
+                                padding: '0 10px',
+                                gap: '20px',
+                            }}>
+                                <img src="https://randomuser.me/api/portraits/women/26.jpg" alt="avatar" style={{
+                                    borderRadius: '50%',
+                                    width: '40px',
+                                    height: '40px',
+                                    objectFit: 'cover',
+                                }} />
+                                <p>Mary S.</p>
+                            </div>
+                            <p>
+                                "From the cozy atmosphere to the innovative menu, 
+                                Little Lemon is my absolute favorite restaurant in town. 
+                                I can't wait to go back and try it again!"
+                            </p>
+                        </div>
+                        <div id="card3" style={{
+                            backgroundColor: '#edefee',
+                            borderRadius: '8px',
+                            width: '192px',
+                            height: 'auto',
+                            padding: '10px',
+                        }}>
+                            
                         </div>
                     </section>
                 </div>
