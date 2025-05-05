@@ -58,9 +58,51 @@ function Nav(){
                     }            
                 }>
                     <li style={listStyle}><Link to="/" style={linkStyle}>Home</Link></li>
-                    
+                    <li style={listStyle}><Link to="/" style={linkStyle}
+                    onClick={() => {
+                        window.scrollTo({
+                            top: document.querySelector('#about').offsetTop,
+                            behavior: 'smooth'
+                        });
+                    }}
+                    >
+                        About
+                    </Link> 
+                    </li>
+                    <li style={listStyle}>
+                    <Link
+                        to="/"
+                        style={linkStyle}
+                        onClick={() => {
+                            window.scrollTo({
+                            top: document.querySelector('#menu').offsetTop,
+                            behavior: 'smooth'
+                            });
+                        }}
+                    >
+                        Menu
+                    </Link>
+                    </li>
+                    <li style={listStyle}><Link to="/reservations" style={linkStyle}>Reservations</Link></li>
+                    <li style={listStyle}><Link to="/" style={{
+                        textDecoration: 'none',
+                        fontFamily: 'Markazi Text, sans-serif',
+                        color: '#d3d3d3',
+                        fontSize: '0.9em',
+                        fontWeight: 'bold',
+                    }}>Order Online</Link>
+                    </li>
+                    <li style={listStyle}><Link to="/" style={{
+                        textDecoration: 'none',
+                        fontFamily: 'Markazi Text, sans-serif',
+                        color: '#d3d3d3',
+                        fontSize: '0.9em',
+                        fontWeight: 'bold',
+                    }}>Login</Link></li>
                 </li>
             </ul>
         </nav>
     );
 }
+
+export default Nav;
