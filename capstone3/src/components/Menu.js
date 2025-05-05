@@ -105,7 +105,23 @@ function Menu(){
                             width: '256px',
                             height: 'auto',
                         }}>
-                            
+                            <div>
+                            <img src={bruchetta} alt="bruchetta" style={{
+                                width: '256px',
+                                height: '192px',
+                                objectFit: 'cover',
+                                borderRadius: '8px 8px 0px 0px',
+                            }} />
+                            </div>
+                            <div style={{
+                                display: 'flex',
+                                flexDirection: 'row',
+                                justifyContent: 'space-between',
+                                alignItems: 'center',
+                                padding: '0 10px',
+                            }}>
+                                
+                            </div>
                         </div>
                     </section>
                 </div>
