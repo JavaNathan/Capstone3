@@ -120,8 +120,56 @@ function Menu(){
                                 alignItems: 'center',
                                 padding: '0 10px',
                             }}>
-                                
+                                <p>Bruchetta</p>
+                                <p>$8.99</p>
                             </div>
+                            <p style={{ padding: '0 10px', }}>
+                                Our bruchetta is made with lovely fresh tomatoes, basil, garlic, and olive oil. Served on toasted
+                                baguette slices and topped with parmesan cheese. You'll love our bruchetta.
+                            </p>
+                            <div style={{
+                                flexDirection: 'row',
+                                justifyContent: 'space-between',
+                                display: 'flex',
+                                padding: '0 10px',
+                                alignItems: 'center',
+                            }}>
+                                <p>Order a delivery</p>
+                                <img alt="courier" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/delivery-1447237-1223498.png?f=webp&amp;w=256" style={{
+                                    width: '24px',
+                                    height: '24px',
+                                    objectFit: 'cover',
+                                }} />
+                            </div>
+                        </div>
+                        <div id="card3" style={{
+                            backgroundColor: '#edefee',
+                            borderRadius: '8px',
+                            width: '256px',
+                            height: 'auto',
+                        }}>
+                            <div>
+                                <img src={lemonDessert} alt="lemon dessert" style={{
+                                    width: '256px',
+                                    height: '192px',
+                                    objectFit: 'cover',
+                                    borderRadius: '8px 8px 0px 0px',
+                                }} />
+                            </div>
+                            <div style={{
+                                flexDirection: 'row',
+                                display: 'flex',
+                                padding: '0 10px',
+                                alignItems: 'center',
+                                justifyContent: 'space-between',
+                            }}>
+                                <p>Lemon Dessert</p>
+                                <p>$5.00</p>
+                            </div>
+                            <p style={{ padding: '0 10px', }}>
+                                This recipe comes straight from grandma's recipe book. A light and fluffy lemon cake with
+                                a lemon glaze. Served with a scoop of vanilla ice cream.
+                            </p>
                         </div>
                     </section>
                 </div>
