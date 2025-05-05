@@ -1,4 +1,4 @@
-import restaurant from '../capstone3/src/images/restaurant.jpg';
+import restaurant from '../images/restaurant.jpg';
 
 function Footer() {
     return (
@@ -39,23 +39,24 @@ function Footer() {
                     <li className="title" style={{
                         fontWeight: 'bold',
                         fontSize: '1.2em',
+                        fontFamily: 'Times New Roman'
                     }}>
                         Doormat Navigation
                     </li>
                     <li>
-                        <a style={{color: 'white', textDecoration: 'none'}} href="/">Home</a>
+                        <a style={{color: 'white', textDecoration: 'none', fontFamily: 'Times New Roman'}} href="/">Home</a>
                     </li>
                     <li>
-                        <a style={{color: 'white', textDecoration: 'none'}} href="#about">About</a>
+                        <a style={{color: 'white', textDecoration: 'none', fontFamily: 'Times New Roman'}} href="#about">About</a>
                     </li>
                     <li>
-                        <a style={{color: 'white', textDecoration: 'none'}} href="#menu">Menu</a>
+                        <a style={{color: 'white', textDecoration: 'none', fontFamily: 'Times New Roman'}} href="#menu">Menu</a>
                     </li>
                     <li>
-                        <a style={{color: 'white', textDecoration: 'none'}} href="/reservations">Reservations</a>
+                        <a style={{color: 'white', textDecoration: 'none', fontFamily: 'Times New Roman'}} href="/reservations">Reservations</a>
                     </li>
                     <li>
-                        <a style={{color: 'grey', textDecoration: 'none'}} href="/">Order Online</a> 
+                        <a style={{color: 'grey', textDecoration: 'none', fontFamily: 'Times New Roman'}} href="/">Order Online</a> 
                     </li>
                     <li>
                         <a style={{color: 'grey', textDecoration: 'none'}} href="/">Login</a>
@@ -115,3 +116,5 @@ function Footer() {
         </div>
     );
 }
+
+export default Footer;

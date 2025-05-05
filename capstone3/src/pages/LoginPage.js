@@ -1,4 +1,4 @@
-import Nav from '../capstone3/src/components/Nav';
+import Nav from '../components/Nav';
 
 function LoginPage() {
     return (

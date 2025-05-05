@@ -1,5 +1,5 @@
-import Nav from '../capstone3/src/components/Nav';
-import BookingForm from '../capstone3/src/components/BookingForm';
+import Nav from '../components/Nav';
+import BookingForm from '../components/BookingForm';
 import { useState, useReducer, useEffect } from 'react';
 
 function BookingPage(props) {

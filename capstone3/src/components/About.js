@@ -1,5 +1,5 @@
-import chefA from '../capstone3/src/images/Mario and Adrian A.jpg';
-import chefB from '../capstone3/src/images/Mario and Adrian B.jpg';
+import chefA from '../images/Mario and Adrian A.jpg';
+import chefB from '../images/Mario and Adrian B.jpg';
 
 function About()
 {

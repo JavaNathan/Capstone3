@@ -1,4 +1,4 @@
-import headerImg from '../capstone3/src/images/restaurant.jpg';
+import headerImg from '../images/restaurant.jpg';
 
 function Header(){
     return (
@@ -24,19 +24,19 @@ function Header(){
                     <h1 style={{
                         color: '#f4ce14',
                         fontSize: '3em',
-                        fontFamily: 'Markazi Text, sans-serif',
+                        fontFamily: 'Times New Roman',
                         margin: '0',
                     }}>Little Lemon</h1>
                     <h3 style={{
                         color: '#edefee',
                         fontSize: '2em',
-                        fontFamily: 'Karla, sans-serif',
+                        fontFamily: 'Times New Roman',
                         margin: '0',
                     }}>Chicago</h3>
                     <p style={{
                         color: '#edefee',
                         fontSize: '1.2em',
-                        fontFamily: 'Karla, sans-serif',
+                        fontFamily: 'Times New Roman',
                     }}>We are a family owned Mediteranian restaurant, 
                     focused on traditional recipes served with a modern twist.</p>
                     <button style={{

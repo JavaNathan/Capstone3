@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Logo from '../capstone3/src/images/Logo.svg';
+import logo from '../images/Logo.svg';
 
 function Nav(){
     const linkStyle = {

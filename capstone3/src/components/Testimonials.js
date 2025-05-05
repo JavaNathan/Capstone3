@@ -32,7 +32,7 @@ function Testimonials(){
                         justifyContent: 'center',
                         alignItems: 'center',
                     }}>
-                        <h1>Kind Words From Happy Customers!</h1>
+                        <h1 style = {{fontFamily: 'Courier New'}}>Reviews From Happy Customers!</h1>
                     </div>
                     <section className="card" style={{
                         display: 'flex',
@@ -59,7 +59,7 @@ function Testimonials(){
                                 }}>
                                     {stars}
                                 </div>
-                                <p>5.0</p>
+                                <p style={{fontFamily: 'Courier New'}}>5.0</p>
                             </div>
                             <div style={{
                                 display: 'flex',
@@ -74,9 +74,9 @@ function Testimonials(){
                                     height: '40px',
                                     objectFit: 'cover',
                                 }} />
-                                <p>Kevin T.</p>
+                                <p style={{fontFamily: 'Courier New'}}>Kevin T.</p>
                             </div>
-                            <p>
+                            <p style={{fontFamily: 'Courier New'}}>
                                 "The food and service at Little Lemon is exceptional. 
                                 The lemon chicken is bursting with bright citrus flavors 
                                 and the desserts are sublime. Highly recommend!"
@@ -100,7 +100,7 @@ function Testimonials(){
                                 }}>
                                     {stars}
                                 </div>
-                                <p>4.8</p>
+                                <p style={{fontFamily: 'Courier New'}}>4.8</p>
                             </div>
                             <div style={{
                                 display: 'flex',
@@ -115,9 +115,9 @@ function Testimonials(){
                                     height: '40px',
                                     objectFit: 'cover',
                                 }} />
-                                <p>Mary S.</p>
+                                <p style={{fontFamily: 'Courier New'}}>Mary S.</p>
                             </div>
-                            <p>
+                            <p style={{fontFamily: 'Courier New'}}>
                                 "From the cozy atmosphere to the innovative menu, 
                                 Little Lemon is my absolute favorite restaurant in town. 
                                 I can't wait to go back and try it again!"
@@ -141,7 +141,7 @@ function Testimonials(){
                                 }}>
                                     {stars.slice(0, 3)}
                                 </div>
-                                <p>3</p>
+                                <p style={{fontFamily: 'Courier New'}}>3</p>
                             </div>
                             <div style={{
                                 display: 'flex',
@@ -156,9 +156,9 @@ function Testimonials(){
                                     height: '40px',
                                     objectFit: 'cover',
                                 }} />
-                                <p>Jason T.</p>
+                                <p style={{fontFamily: 'Courier New'}}>Jason T.</p>
                             </div>
-                            <p>
+                            <p style={{fontFamily: 'Courier New'}}>
                                 "While the staff were friendly, I found some dishes to be lacking in flavor 
                                 and overpriced. The lemon tart, however, was a standout. 
                                 Overall experience was just okay."
@@ -182,7 +182,7 @@ function Testimonials(){
                                 }}>
                                     {stars}
                                 </div>
-                                <p>4.5</p>
+                                <p style={{fontFamily: 'Courier New'}}>4.5</p>
                             </div>
                             <div style={{
                                 display: 'flex',
@@ -197,9 +197,9 @@ function Testimonials(){
                                     height: '40px',
                                     objectFit: 'cover',
                                 }} />
-                                <p>Marina L.</p>
+                                <p style={{fontFamily: 'Courier New'}}>Marina L.</p>
                             </div>
-                            <p>
+                            <p style={{fontFamily: 'Courier New'}}>
                                 "I've never had such incredible lemon-infused food! Everything on the menu at Little Lemon 
                                 is creative, fresh and full of zesty lemon flavor. A new favorite!"
                             </p>

@@ -1,6 +1,6 @@
-import { Routs, Route } from 'react-router-dom';
-import HomePage from '../capstone3/src/pages/HomePage';
-import BookingPage from '../capstone3/src/pages/BookingPage';
+import { Routes, Route } from 'react-router-dom';
+import HomePage from '../pages/HomePage';
+import BookingPage from '../pages/BookingPage';
 
 function Main(){
     return (

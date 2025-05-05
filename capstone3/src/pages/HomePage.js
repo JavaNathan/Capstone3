@@ -1,9 +1,9 @@
-import Nav from '../capstone3/src/components/Nav';
-import Header from '../capstone3/src/components/Header';
-import About from '../capstone3/src/components/About';
-import Footer from '../capstone3/src/components/Footer';
-import Testimonials from '../capstone3/src/components/Testimonials';
-import Menu from '../capstone3/src/components/Menu';
+import Nav from '../components/Nav';
+import Header from '../components/Header';
+import About from '../components/About';
+import Footer from '../components/Footer';
+import Testimonials from '../components/Testimonials';
+import Menu from '../components/Menu';
 
 function HomePage() {
     return (
@@ -17,3 +17,5 @@ function HomePage() {
         </>
     );
 }
+
+export default HomePage;

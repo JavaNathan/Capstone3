@@ -1,6 +1,6 @@
-import bruchetta from '../capstone3/src/images/bruchetta.svg';
-import greekSalad from '../capstone3/src/images/greek salad.jpg';
-import lemonDessert from '../capstone3/src/images/lemon dessert.jpg';
+import bruchetta from '../images/bruchetta.svg';
+import greekSalad from '../images/greek salad.jpg';
+import lemonDessert from '../images/lemon dessert.jpg';
 
 function Menu(){
     return (

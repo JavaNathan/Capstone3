@@ -1,4 +1,4 @@
-import ConfirmedBooking from '../capstone3/src/components/ConfirmedBooking.js';
+import ConfirmedBooking from './ConfirmedBooking';
 import { useState, useEffect } from 'react';
 
 function BookingForm(props)

@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
-import HomePage from '../capstone3/src/pages/HomePage';
-import BookingPage from '../capstone3/src/pages/BookingPage';
-import LoginPage from '../capstone3/src/pages/LoginPage';
-import ConfirmedBooking from '../capstone3/src/components/ConfirmedBooking';
-import OrderOnlinePage from '../capstone3/src/pages/OrderOnlinePage';
-import '../capstone3/src/App.css';
+import HomePage from './pages/HomePage';
+import BookingPage from './pages/BookingPage';
+import LoginPage from './pages/LoginPage';
+import ConfirmedBooking from './components/ConfirmedBooking';
+import OrderOnlinePage from './pages/OrderOnlinePage';
+import './App.css';
 
 function App() {
   return (
