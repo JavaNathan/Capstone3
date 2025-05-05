@@ -29,7 +29,7 @@ function Footer() {
                 gridColumn: '4 / span 8',
                 padding: '10px',
             }}>
-                <u1 id="doormat-nav" style={{
+                <ul id="doormat-nav" style={{
                     flex: '1',
                     padding: '0',
                     listStyle: 'none',
@@ -48,7 +48,69 @@ function Footer() {
                     <li>
                         <a style={{color: 'white', textDecoration: 'none'}} href="#about">About</a>
                     </li>
-                </u1>
+                    <li>
+                        <a style={{color: 'white', textDecoration: 'none'}} href="#menu">Menu</a>
+                    </li>
+                    <li>
+                        <a style={{color: 'white', textDecoration: 'none'}} href="/reservations">Reservations</a>
+                    </li>
+                    <li>
+                        <a style={{color: 'grey', textDecoration: 'none'}} href="/">Order Online</a> 
+                    </li>
+                    <li>
+                        <a style={{color: 'grey', textDecoration: 'none'}} href="/">Login</a>
+                    </li>
+                </ul>
+                <ul id="contact" style={{
+                    padding: '0',
+                    flex: '1',
+                    listStyle: 'none',
+                    margin: '0',
+                    textAlign: 'left',
+                }}>
+                    <li className="title" style={{
+                        fontSize: '1.2em',
+                        textAlign: 'left',
+                        fontWeight: 'bold'
+                    }}>
+                        Contact
+                    </li>
+                    <li>
+                        123 Sesame Street, Anytown, USA
+                    </li>
+                    <li>555-123-4567</li>
+                    <li>
+                        <a href="mailto:littlelemon@fakemail.com" style={{
+                            color: 'white',
+                            textDecoration: 'none',
+                        }}>littlelemon@fakemail.com</a>
+                    </li>
+                </ul>
+                <ul id="social-media-links" style={{
+                    flex: '1',
+                    padding: '0',
+                    margin: '0',
+                    listStyle: 'none',
+                    textAlign: 'left',
+                }}>
+                    <li className="title" style={{
+                        fontSize: '1.2em',
+                        fontWeight: 'bold',
+                    }}>Social Media Links
+                    </li>
+                    <li>
+                        <a href="www.facebook.com" style={{
+                        color: 'white',
+                        textDecoration: 'none',
+                    }}>Facebook</a>
+                    </li>
+                    <li>
+                        <a href="www.instagram.com" style={{
+                        color: 'white',
+                        textDecoration: 'none',
+                    }}>Instagram</a>
+                    </li>
+                </ul>
             </div>
         </div>
     );
