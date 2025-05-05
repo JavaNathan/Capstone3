@@ -164,10 +164,51 @@ function Testimonials(){
                                 Overall experience was just okay."
                             </p>
                         </div>
-                        
+                        <div id="card4" style={{
+                            backgroundColor: '#edefee',
+                            borderRadius: '8px',
+                            width: '192px',
+                            height: 'auto',
+                            padding: '10px',
+                        }}>
+                            <div style={{
+                                display: 'flex',
+                                flexDirection: 'row',
+                                alignItems: 'center',
+                                padding: '0 10px',
+                            }}>
+                                <div style={{
+                                    margin: '0 15px 0 0',
+                                }}>
+                                    {stars}
+                                </div>
+                                <p>4.5</p>
+                            </div>
+                            <div style={{
+                                display: 'flex',
+                                flexDirection: 'row',
+                                alignItems: 'center',
+                                padding: '0 10px',
+                                gap: '20px',
+                            }}>
+                                <img src="https://randomuser.me/api/portraits/women/95.jpg" alt="avatar" style={{
+                                    borderRadius: '50%',
+                                    width: '40px',
+                                    height: '40px',
+                                    objectFit: 'cover',
+                                }} />
+                                <p>Marina L.</p>
+                            </div>
+                            <p>
+                                "I've never had such incredible lemon-infused food! Everything on the menu at Little Lemon 
+                                is creative, fresh and full of zesty lemon flavor. A new favorite!"
+                            </p>
+                        </div>
                     </section>
                 </div>
             </div>
         </>
     );
 }
+
+export default Testimonials;
