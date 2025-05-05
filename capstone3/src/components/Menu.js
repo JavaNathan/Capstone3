@@ -170,6 +170,22 @@ function Menu(){
                                 This recipe comes straight from grandma's recipe book. A light and fluffy lemon cake with
                                 a lemon glaze. Served with a scoop of vanilla ice cream.
                             </p>
+                            <div style={{
+                                flexDirection: 'row',
+                                padding: '0 10px',
+                                justifyContent: 'space-between',
+                                display: 'flex',
+                                alignItems: 'center',
+                            }}>
+                                <p>Order a delivery</p>
+                                <img alt="courier" 
+                                src="https://cdn.iconscout.com/icon/premium/png-256-thumb/delivery-1447237-1223498.png?f=webp&amp;w=256"
+                                style={{
+                                    objectFit: 'cover',
+                                    width: '24px',
+                                    height: '24px',
+                                }}/>
+                            </div>
                         </div>
                     </section>
                 </div>
