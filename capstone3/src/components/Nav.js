@@ -18,4 +18,49 @@ function Nav(){
         justifyContent: 'center',
         alignItems: 'center',
     };
+
+    return (
+        <nav style={{ height: '96px'}}>
+            <ul style={
+                {
+                    display: 'grid',
+                    gridTemplateColumns: 'repeat(12, 1fr)',
+                    gridGap: '10px',
+                    backgroundColor: 'white',
+                    color: 'black',
+                    listStyle: 'none',
+                    textAlign: 'center',
+                    margin: '0 0 0 0',
+                    padding: '20px 0 20px 0',
+                    position: 'fixed',
+                    top: '0',
+                    width: '100%',
+                    height: '72px',
+                    zIndex: '100',
+                }
+            }>
+                <img src={logo} alt="logo" style={
+                    {
+                        cursor: 'pointer',
+                        height: 'auto',
+                        width: '256px',
+                        gridColumn: '3 / span 2',
+                    }
+                }
+                onClick={() =>{
+                    window.location.href = '/';
+                }}/>
+                <li style={
+                    {
+                        gridColumn: '5 / span 6',
+                        display: 'flex',
+                        padding: '10px',
+                    }            
+                }>
+                    <li style={listStyle}><Link to="/" style={linkStyle}>Home</Link></li>
+                    
+                </li>
+            </ul>
+        </nav>
+    );
 }
