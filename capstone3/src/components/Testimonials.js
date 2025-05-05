@@ -130,8 +130,41 @@ function Testimonials(){
                             height: 'auto',
                             padding: '10px',
                         }}>
-                            
+                            <div style={{
+                                display: 'flex',
+                                flexDirection: 'row',
+                                alignItems: 'center',
+                                padding: '0 10px',
+                            }}>
+                                <div style={{
+                                    margin: '0 15px 0 0',
+                                }}>
+                                    {stars.slice(0, 3)}
+                                </div>
+                                <p>3</p>
+                            </div>
+                            <div style={{
+                                display: 'flex',
+                                flexDirection: 'row',
+                                alignItems: 'center',
+                                padding: '0 10px',
+                                gap: '20px',
+                            }}>
+                                <img src="https://randomuser.me/api/portraits/men/94.jpg" alt="avatar" style={{
+                                    borderRadius: '50%',
+                                    width: '40px',
+                                    height: '40px',
+                                    objectFit: 'cover',
+                                }} />
+                                <p>Jason T.</p>
+                            </div>
+                            <p>
+                                "While the staff were friendly, I found some dishes to be lacking in flavor 
+                                and overpriced. The lemon tart, however, was a standout. 
+                                Overall experience was just okay."
+                            </p>
                         </div>
+                        
                     </section>
                 </div>
             </div>
