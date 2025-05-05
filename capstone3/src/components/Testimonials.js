@@ -54,6 +54,47 @@ function Testimonials(){
                                 alignItems: 'center',
                                 padding: '0 10px',
                             }}>
+                                <div style={{
+                                    margin: '0 15px 0 0',
+                                }}>
+                                    {stars}
+                                </div>
+                                <p>5.0</p>
+                            </div>
+                            <div style={{
+                                display: 'flex',
+                                flexDirection: 'row',
+                                alignItems: 'center',
+                                padding: '0 10px',
+                                gap: '20px',
+                            }}>
+                                <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="avatar" style={{
+                                    borderRadius: '50%',
+                                    width: '40px',
+                                    height: '40px',
+                                    objectFit: 'cover',
+                                }} />
+                                <p>Kevin T.</p>
+                            </div>
+                            <p>
+                                "The food and service at Little Lemon is exceptional. 
+                                The lemon chicken is bursting with bright citrus flavors 
+                                and the desserts are sublime. Highly recommend!"
+                            </p>
+                        </div>
+                        <div id="card2" style={{
+                            backgroundColor: '#edefee',
+                            borderRadius: '8px',
+                            width: '192px',
+                            height: 'auto',
+                            padding: '10px',
+                        }}>
+                            <div style={{
+                                display: 'flex',
+                                flexDirection: 'row',
+                                alignItems: 'center',
+                                padding: '0 10px',
+                            }}>
                                 
                             </div>
                         </div>
