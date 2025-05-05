@@ -1,4 +1,4 @@
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 import HomePage from '../capstone3/src/pages/HomePage';
 import BookingPage from '../capstone3/src/pages/BookingPage';
