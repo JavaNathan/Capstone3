@@ -59,7 +59,7 @@ function Footer() {
                         <a style={{color: 'grey', textDecoration: 'none', fontFamily: 'Times New Roman'}} href="/">Order Online</a> 
                     </li>
                     <li>
-                        <a style={{color: 'grey', textDecoration: 'none'}} href="/">Login</a>
+                        <a style={{color: 'grey', textDecoration: 'none', fontFamily: 'Times New Roman'}} href="/">Login</a>
                     </li>
                 </ul>
                 <ul id="contact" style={{
@@ -72,18 +72,20 @@ function Footer() {
                     <li className="title" style={{
                         fontSize: '1.2em',
                         textAlign: 'left',
-                        fontWeight: 'bold'
+                        fontWeight: 'bold',
+                        fontFamily: 'Times New Roman'
                     }}>
                         Contact
                     </li>
-                    <li>
+                    <li style={{fontFamily: 'Times New Roman'}}>
                         123 Sesame Street, Anytown, USA
                     </li>
-                    <li>555-123-4567</li>
+                    <li style={{fontFamily: 'Times New Roman'}}>555-123-4567</li>
                     <li>
                         <a href="mailto:littlelemon@fakemail.com" style={{
                             color: 'white',
                             textDecoration: 'none',
+                            fontFamily: 'Times New Roman',
                         }}>littlelemon@fakemail.com</a>
                     </li>
                 </ul>
@@ -93,6 +95,7 @@ function Footer() {
                     margin: '0',
                     listStyle: 'none',
                     textAlign: 'left',
+                    fontFamily: 'Times New Roman',
                 }}>
                     <li className="title" style={{
                         fontSize: '1.2em',

@@ -13,16 +13,16 @@ function About()
             gridColumn: '3 / span 3', alignItems: 'top', padding: '20px',
             }}>
                 <div className="content" style={{textAlign: 'left',}}>
-                    <h1 style={{fontSize: '3em', color: '#f4ce14', fontFamily: 'Merkazi Text, sans-serif', margin: '0',
+                    <h1 style={{fontSize: '3em', color: '#f4ce14', fontFamily: 'Courier New', margin: '0',
 
                     }}>Little Lemon</h1>
                     <h3 style={{
                         fontSize: '2em',
                         color: '#ee9972',
                         margin: '0',
-                        fontFamily: 'Karla, sans-serif',
+                        fontFamily: 'Courier New',
                     }}>Chicago</h3>
-                    <p style={{fontFamily: 'Karla, sans-serif', color: 'black', fontSize: '1.2em',}}>
+                    <p style={{fontFamily: 'Courier New', color: 'black', fontSize: '1.2em',}}>
                         Little Lemon is owned by Italian brothers: Mario and Adrian, who moved to the United States
                         to pursue their shared dream of owning a restaurant.
                         <br/><br/>

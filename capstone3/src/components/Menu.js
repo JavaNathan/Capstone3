@@ -27,7 +27,7 @@ function Menu(){
                     }}>
                         <h1 style={{
                             fontSize: '2.5em',
-                            fontFamily: 'Markazi Text, sans-serif',
+                            fontFamily: 'Courier New',
                             margin: '0',
                         }}>
                             This weeks specials!
@@ -44,7 +44,7 @@ function Menu(){
                             margin: '8px 0px',
                             cursor: 'pointer',
                             borderRadius: '8px',
-                            fontFamily: 'Karla, sans-serif',
+                            fontFamily: 'Courier New',
                             fontWeight: 'bold',
                         }}>
                             Online Menu
@@ -76,11 +76,12 @@ function Menu(){
                                 display: 'flex',
                                 justifyContent: 'space-between',
                                 padding: '0 10px',
+                                fontFamily: 'Courier New',
                             }}>
                                 <p>Greek Salad</p>
                                 <p>$12.99</p>
                             </div>
-                            <p style={{ padding: '0 10px', }}>
+                            <p style={{ padding: '0 10px', fontFamily: 'Courier New'}}>
                                 The famous greek salad of crispy lettuce, cucumbers, tomatoes, onions, feta cheese,
                                 kalamata olives, and pepperoncini peppers.
                             </p>
@@ -90,6 +91,7 @@ function Menu(){
                                 justifyContent: 'space-between',
                                 padding: '0 10px',
                                 alignItems: 'center',
+                                fontFamily: 'Courier New',
                             }}>
                                 <p>Order a delivery</p>
                                 <img alt="courier" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/delivery-1447237-1223498.png?f=webp&amp;w=256" style={{
@@ -119,11 +121,12 @@ function Menu(){
                                 justifyContent: 'space-between',
                                 alignItems: 'center',
                                 padding: '0 10px',
+                                fontFamily: 'Courier New',
                             }}>
                                 <p>Bruchetta</p>
                                 <p>$8.99</p>
                             </div>
-                            <p style={{ padding: '0 10px', }}>
+                            <p style={{ padding: '0 10px', fontFamily: 'Courier New' }}>
                                 Our bruchetta is made with lovely fresh tomatoes, basil, garlic, and olive oil. Served on toasted
                                 baguette slices and topped with parmesan cheese. You'll love our bruchetta.
                             </p>
@@ -133,6 +136,7 @@ function Menu(){
                                 display: 'flex',
                                 padding: '0 10px',
                                 alignItems: 'center',
+                                fontFamily: 'Courier New'
                             }}>
                                 <p>Order a delivery</p>
                                 <img alt="courier" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/delivery-1447237-1223498.png?f=webp&amp;w=256" style={{
@@ -162,11 +166,12 @@ function Menu(){
                                 padding: '0 10px',
                                 alignItems: 'center',
                                 justifyContent: 'space-between',
+                                fontFamily: 'Courier New'
                             }}>
                                 <p>Lemon Dessert</p>
                                 <p>$5.00</p>
                             </div>
-                            <p style={{ padding: '0 10px', }}>
+                            <p style={{ padding: '0 10px', fontFamily: 'Courier New', }}>
                                 This recipe comes straight from grandma's recipe book. A light and fluffy lemon cake with
                                 a lemon glaze. Served with a scoop of vanilla ice cream.
                             </p>
@@ -176,6 +181,7 @@ function Menu(){
                                 justifyContent: 'space-between',
                                 display: 'flex',
                                 alignItems: 'center',
+                                fontFamily: 'Courier New'
                             }}>
                                 <p>Order a delivery</p>
                                 <img alt="courier" 

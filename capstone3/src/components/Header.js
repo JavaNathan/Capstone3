@@ -51,7 +51,7 @@ function Header(){
                         margin: '8px 0px',
                         cursor: 'pointer',
                         borderRadius: '8px',
-                        fontFamily: 'Karla, sans-serif',
+                        fontFamily: 'Times New Roman',
                         fontWeight: 'bold',
                     }}
                     onClick={() => { window.location.href = '/reservations'; }}
@@ -68,7 +68,7 @@ function Header(){
                 margin: '20px 0 -225px 0',
             }}>
                 <img src={headerImg} alt="Chef serving" style={{
-                    width: '90%',
+                    width: '200%',
                     height: '70%',
                     objectFit: 'cover',
                     borderRadius: '10px',
