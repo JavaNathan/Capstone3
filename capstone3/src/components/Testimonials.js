@@ -1,3 +1,8 @@
+import headShot1 from '../images/headshot1.png';
+import headShot2 from '../images/headshot2.png';
+import headShot3 from '../images/headshot3.png';
+import headShot4 from '../images/headshot4.png';
+
 function Testimonials(){
     const starIcon = 'https://cdn-icons-png.flaticon.com/512/2107/2107957.png';
     const stars = [];
@@ -68,7 +73,7 @@ function Testimonials(){
                                 padding: '0 10px',
                                 gap: '20px',
                             }}>
-                                <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="avatar" style={{
+                                <img src={headshot1} alt="avatar" style={{
                                     borderRadius: '50%',
                                     width: '40px',
                                     height: '40px',
@@ -109,7 +114,7 @@ function Testimonials(){
                                 padding: '0 10px',
                                 gap: '20px',
                             }}>
-                                <img src="https://randomuser.me/api/portraits/women/26.jpg" alt="avatar" style={{
+                                <img src={headShot2} alt="avatar" style={{
                                     borderRadius: '50%',
                                     width: '40px',
                                     height: '40px',
@@ -150,7 +155,7 @@ function Testimonials(){
                                 padding: '0 10px',
                                 gap: '20px',
                             }}>
-                                <img src="https://randomuser.me/api/portraits/men/94.jpg" alt="avatar" style={{
+                                <img src={headShot3} alt="avatar" style={{
                                     borderRadius: '50%',
                                     width: '40px',
                                     height: '40px',
@@ -191,7 +196,7 @@ function Testimonials(){
                                 padding: '0 10px',
                                 gap: '20px',
                             }}>
-                                <img src="https://randomuser.me/api/portraits/women/95.jpg" alt="avatar" style={{
+                                <img src={headShot4} alt="avatar" style={{
                                     borderRadius: '50%',
                                     width: '40px',
                                     height: '40px',
