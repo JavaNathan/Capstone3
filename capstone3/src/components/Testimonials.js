@@ -73,7 +73,7 @@ function Testimonials(){
                                 padding: '0 10px',
                                 gap: '20px',
                             }}>
-                                <img src={headshot1} alt="avatar" style={{
+                                <img src={headShot1} alt="avatar" style={{
                                     borderRadius: '50%',
                                     width: '40px',
                                     height: '40px',
